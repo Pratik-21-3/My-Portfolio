@@ -39,6 +39,15 @@ nav a:hover{
 
 .search-bar button{
     background-color: goldenrod;
+    width: 55px;
+}
+.search-bar input{
+    width: 100px;
+}
+
+.search-bar form{
+    display: flex;
+    gap: 5px;
 }
 
 h1,h2{
@@ -133,5 +142,9 @@ nav ul {
     }
     .about-content {
         flex-direction: column;
+    }
+
+    .search-bar{
+        width: 40%;
     }
 }
