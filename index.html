@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
     <title>My Portfolio</title>
 </head>
 <body>
     <header>
-    
-        <img src="image/logo.jpg" alt="logo" width="100">
+    <div class="header-content">
+            <h1>Welcome to My Portfolio</h1>
+           
+        
+        <div class="logo">
+            <img src="image/logo.jpg" alt="logo" width="100">
+        </div>
+
+        <div class="nav-bar">
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -18,20 +27,33 @@
             <li><a href="#Education">Education</a></li>
         </ul>
     </nav>
+        </div>
+
+        <div class="search-bar">
     <form>
         <input type="text" placeholder="Search">
         <button type="submit">Search</button>
     </form>
-    </header>   
+    </div>
+    </div>
+    </header> 
+ 
             
         <main>
             <section id="AboutMe">
+            <div class="about-content">
+                <div class="about-text">
             <h1>About Me</h1>
-            <img src="image/pratik.jpeg" alt="profile" width="150">
             <p>I’m Pratik Bhandari, an Information Technology student with a strong interest in web development and technology. I enjoy learning new skills, exploring how technology works, and building practical projects that can solve real-world problems. I’m currently developing my knowledge in programming, software development, cloud computing, and other areas of IT. My goal is to grow as a skilled and reliable IT professional by continuously learning, practicing, and gaining real-world experience.</p>
-            </section>
-
-            <section id="Skills">
+            </div>
+            <img src="image/pratik.jpeg" alt="profile" width="150">
+        
+            </div>
+        </section>
+            
+        <section id="Skills">  
+        <div class="skills-content">
+            
             <h1>My Skills</h1>
             <dl>
                 <dt><b>Programming Languages:</b></dt>
@@ -43,24 +65,36 @@
             </dl>
             <p>I have a growing foundation in programming, web development, and information technology. My current skills include <b>C#, C++, HTML, CSS, basic JavaScript, Python, and SQL</b>. I also have basic knowledge of cloud computing and AWS, along with an understanding of software development and problem-solving. I’m continuously improving my technical skills through coursework, practical projects, and hands-on learning.
 </p>
+            </div>
             </section>
 
             <section id="Projects">
+            <div class="projects-content">
+            
             <h1>My Projects</h1>
             <article>
                 <h2>ShikshyaConnect</h2>
+               
+               
                 <p><b>ShikshyaConnect</b> is a platform concept designed to help colleges find suitable teaching staff based on their requirements. The platform allows colleges to post job openings and requirements, while teachers can create profiles and apply for positions that match their skills and experience. The goal of ShikshyaConnect is to streamline the hiring process for educational institutions and provide teachers with more opportunities to find suitable employment.</p>
+                <a href="ShikshyaConnect.html">Check Out the Project.</a>
             </article>
             <article>
                 <h2>AWS S3 Static Website Hosting</h2>
                 <p>I have worked on an AWS S3 static website hosting project, where I learned about cloud storage and deployment strategies. This project helped me understand how to host static websites on AWS and manage them effectively.</p>
+                <a href="aws-s3-project.html">Check Out the Project.</a>
             </article>
             <article>
                 <h2>Personal Portfolio Website</h2>
                 <p>My personal portfolio website is a project where I showcased my skills, projects, and experience. It was built using HTML, CSS, and JavaScript to demonstrate my web development capabilities.</p>
+                <a href="personal-portfolio.html">Check Out the Project.</a>
             </article>
+            </div>
             </section>
-            <section id="Contact">
+
+           <section id="Contact">
+            <div class="contact-content">
+        
             <h1>Contact me</h1>
             <p>I’m always open to connecting, learning, and exploring new opportunities in the field of technology. If you have a project, internship opportunity, or simply want to connect, feel free to reach out to me. I’d be happy to hear from you and discuss how we can connect and work together.</p>
            
@@ -75,11 +109,14 @@
                 <textarea placeholder="Would you like to say something?"></textarea><br>
                 <br><button type="submit">Submit</button>
             </form>
-            
+        </div>   
      </section>
+
             <section id="Education">
+            <div class="education-content">
+            
             <h1>Education</h1>
-            <table>
+            <table border="1">
                 <thead>
                     <tr>
                         <th>S.N.</th>
@@ -118,6 +155,7 @@
                    
         
             </table>
+        </div>
             </section>
          </main>   
 
@@ -128,4 +166,5 @@
              <a href="https://www.linkedin.com/in/pratik-bhandari-448b7737a/" target="_blank"><img src="image/instagramlogo.jpg" alt="linkedin" width="50"></a>
             <p>  © 2026 Pratik Bhandari. All rights reserved.</p>
         </footer>
+        </body> 
 </html>
